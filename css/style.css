@@ -32,6 +32,11 @@
     text-transform: uppercase;
     font-size: 1.5rem;
 }
+
+#interface main {
+    display: block;
+}
+
 #interface table {
     margin: 0 auto;
    padding: .5rem;
@@ -43,15 +48,27 @@
 #interface table #painel {
    display: block;
    padding: 5px;
-   margin-bottom: 10px;
+   margin-bottom: 5px;
    background-color: #333;
-   border-radius: .15rem;
-
+   border-radius: .25rem;
 }
+
 #interface table #painel #txt-operadores {
-    
+    display: block;
+    color: #fafafa;
+    text-align: right;
 }
 
+#interface table #painel #txt-display {
+     display: block;
+     width: 100%;
+     background-color: transparent;
+     border: 0;
+     outline: none;
+     color: #fafafa;
+     text-align: right;
+    font-size: 22px;
+}
 
 #interface table button {
     display: block;
@@ -59,6 +76,7 @@
     height: 50px;
     font-size: 1.5rem;
 }
+
 #interface table #bt-plus, #interface table #bt-equal {
     height: 102px;
 }
